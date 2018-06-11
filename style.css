@@ -1,0 +1,241 @@
+@font-face{
+    font-family: 'ZonaPro-Bold';
+
+src: url('fonts/zona pro/ZonaPro-Bold.eot');
+
+}
+
+
+html, body {
+	margin: 0;
+	padding; 0;
+}
+
+body {
+	background: url(https://intetics.com/wp-content/themes/intetics/img/bg_company.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.wrapper{
+	/*padding:10px;*/
+	
+	
+	
+}
+.wrapper-inner{
+	/*background: rgba(255,255,255, 0.1);
+	/*margin: 0 auto;
+	padding:10px;*/
+}
+.wrapper .inst {
+   /* background: url(https://intetics.com/wp-content/themes/intetics/img/bg_paralax_perfomance.png) center 0 no-repeat #fef1e9;*/
+	/*width: 50%;*/
+    font-size: 16px;
+        line-height: 25px;
+    color: #333;
+	   /* border: 2px solid white;*/
+	    margin: 20px 0 0;
+	    padding: 30px 25px 60px;
+    
+    
+        font: 20px 'ZonaPro-Bold';
+    color: #fff;
+    font-weight: normal;
+        border-bottom: 1px solid #f6ae7b;
+  
+     
+}
+.logo-wrapper {
+    background-color: #f8f8f8;
+    
+}
+.logo-img {
+	display: block;
+	height: 50px;
+	width: 150px;
+	background: url(https://intetics.com/wp-content/themes/intetics/img/logo_desktop.svg) 
+	no-repeat;
+	background-size: cover;
+	margin:0 0 0 15px;
+	padding: 10px;
+	/*float:right;
+	border: 1px solid red;
+	position: absolute;
+    
+    
+	
+right: 0;*/
+	
+}
+.logo-bottom-line {
+	height: 4px;
+	background-image: linear-gradient(to right,#e97531 0,#e97531 35%,#eba83e 35%,#eba83e 65%,#e97531 65%,#e97531 100%);
+}
+.wrapper .about{
+    background-color: white;
+font-family: 'ZonaPro-Light',sans-serif;
+font-size: 30px;
+ 
+    /*text-align: center;
+    margin:25px 0;*/
+    overflow: hidden;
+      
+   padding: 20px 25px 20px;
+    /*margin-right: auto;
+    margin-left: auto;*/
+    border-bottom: 1px solid #f6ae7b;
+}
+.aboutPJ{
+     background: url(https://intetics.com/wp-content/themes/intetics/img/bg_paralax_perfomance.png) center 0 no-repeat #fef1e9;
+
+}
+.aboutPJ p {
+    font-family: 'ChronicaPro-Regular',sans-serif;
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+    margin: 0 0 21px;
+}
+
+.about h3{
+    font-size: 32px;
+    font-weight: normal;
+    color: #fe9152;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+
+.logo  {
+	
+	display: block;
+	
+	border: 5px solid red;
+	background-size: cover;
+    min-width: 140px;
+}
+
+
+.w-s{
+    
+    /* background: url(https://intetics.com/wp-content/themes/intetics/img/bg_papallax_map.jpg) center 0 no-repeat;*/
+    background: url(https://intetics.com/wp-content/themes/intetics/img/bg_paralax_perfomance.png) center 0 no-repeat #fe9152;
+
+       
+   
+    margin-bottom: 60px;
+    overflow: hidden;
+    border-bottom: 1px solid #f6ae7b;
+}
+
+.skills {
+    display:flex;
+    border-bottom: 1px solid #f5af42;
+}
+.waiting, .plus { 
+    /*display:flex;*/
+   width: 50%;
+    padding-left:15px;
+    
+   /* background-color: #fea352;
+    padding: 15px 20px;*/
+    
+    
+   
+    padding: 0;
+    margin: 45px 50px;
+    background-color: #fef1ea;
+    border-radius: 4px;
+    
+}
+.waiting p, .plus p {
+
+    font-size: 24px;
+    color: #583a2a;
+    text-align: center;
+   
+    width: 100%;
+
+
+    
+    
+}
+.waiting-label, .plus-label {
+    
+
+    width: 100%;
+    padding: 5px 0;
+
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    
+}
+.waiting .col-l, .plus .col-r{
+  
+    /*margin-bottom: 120px;
+    border: 2px solid #fe9152;
+    padding: 21px 3% 0;*/
+        padding: 25px 25px 27px;
+    background-color: #fef1ea;
+    border-radius: 4px;
+}
+.waiting ul, .plus ul {
+    list-style: none;
+    padding: 0 0 5px;
+    font: 14px 'ZonaPro-Bold',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+   
+   /* margin-bottom: 25px;*/
+   
+    z-index: 2;
+}
+.waiting ul li, .plus ul li{
+        box-sizing: border-box;
+     display: list-item;
+    line-height:24px;
+    padding-bottom: 5px;
+    list-style-type: none; 
+    text-align: -webkit-match-parent;
+} 
+
+.benefits{
+     background: url(https://intetics.com/wp-content/themes/intetics/img/bg_paralax_perfomance.png) center 0 no-repeat;
+    background-color: white;
+	font-family: 'Chronica Pro-Regular',sans-serif;
+}
+.benefits h3{
+    font-size: 32px;
+    font-weight: normal;
+    color: #fe9152;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.benefit-container{
+     padding: 20px 25px 10px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.benefit-container-list{
+    display: block;
+    font-size: 16px;
+    margin: 0 0 21px;
+    font-family: 'ChronicaPro-Regular',sans-serif;
+    line-height: 1.5;
+    color: #333;
+    padding: 0 20px;
+}
+
+.benefit-container-list li {
+list-style-type: square;    
+}
+
+.b-cover {
+	min-width: 100px;
+	min-height: 100px;
+}
